@@ -1,0 +1,20 @@
+@use '_mixinsfunc';
+
+.hero {
+
+
+    &__container {
+        height: calc(100vh - 70px);
+        background-image: linear-gradient(#0000006d, #000000b9);
+
+        @include mixinsfunc.crear-flexbox(center);
+    }
+
+    &__text {
+        color: #fff;
+    }
+
+    &__title{
+        font-size: 3rem;
+    }
+}
