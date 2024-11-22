@@ -12,7 +12,7 @@
   height: 70px;
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: space-evenly;
   gap: 1em;
 }
 .nav__item {
@@ -34,16 +34,24 @@
 /*  @use '_animaciones';  */
 .hero__container {
   height: calc(100vh - 70px);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4274509804), rgba(0, 0, 0, 0.7254901961));
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4274509804), rgba(0, 0, 0, 0.7254901961)), url("../img/goky ultra instinto.webp");
   display: flex;
   align-items: center;
   justify-content: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 .hero__text {
+  width: 90%;
   color: #fff;
 }
 .hero__title {
-  font-size: 3rem;
+  font-size: 2.5rem;
+  margin-bottom: 0.625rem;
+}
+.hero__paragraph {
+  font-size: 1.125rem;
 }
 
 /*# sourceMappingURL=style.css.map */
